@@ -28,3 +28,5 @@ Tải file về , mở AndroidStudio : File => new => import project , tiến h�
 
 (thư viện circleimageview : bo tròn view )
 #implementation 'de.hdodenhof:circleimageview:2.2.0'
+
+#tham khảo : https://www.youtube.com/watch?v=PQ9NL9UI_gc&list=PLzrVYRai0riTMwAVJxP2hk9VTMK4yKEkC&index=53 
