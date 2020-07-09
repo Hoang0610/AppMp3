@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+
+        android:background="#DFE37C"
+        android:id="@+id/appbarlayoutsearchbaihat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+
+
+            android:id="@+id/toolbarsearchbaihat"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:layout_below="@id/appbarlayoutsearchbaihat"
+        android:id="@+id/recyclerviewsearchbaihat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+
+
+        android:visibility="gone"
+        android:textColor="#653D10"
+        android:gravity="center"
+        android:id="@+id/textviewkhongcodulieu"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TextView>
+
+</RelativeLayout>
